@@ -54215,7 +54215,7 @@ return A.Z(A.QH(),$async$fa)
 case 2:l=b
 l.toString
 p=A.aXv(B.b0.Bw(0,l,null))
-o="http://1.186.146.248:5000/bmc/dashboardlist/?date="+A.QD(new A.aG(Date.now(),!1),A.b(["yyyy","-","mm","-","dd"],t.s))+"&username="
+o="https://1.186.146.248:5000/bmc/dashboardlist/?date="+A.QD(new A.aG(Date.now(),!1),A.b(["yyyy","-","mm","-","dd"],t.s))+"&username="
 n=p.b
 s=3
 return A.Z(A.aQQ(A.nl(o+A.h(n==null?null:n.a))).qB(0,B.om,new A.azv()),$async$fa)
@@ -54425,7 +54425,7 @@ r=q.d
 o=new A.b4(B.Cq,A.cE(A.b([s,A.es(r.length===0?B.x3:A.dg(new A.a_f(r,p),p,p),1)],o),B.B,B.G,B.H,B.R),p)}return new A.BX(A.p2(n,p,o,p),new A.ayO(),p)},
 fa(){var s=0,r=A.Q(t.z),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$fa=A.R(function(a0,a1){if(a0===1)return A.N(a1,r)
-while(true)switch(s){case 0:a=A.nl("http://1.186.146.248:5000/bmc/alerthealth/?macID="+q.a.c+"&date="+q.x)
+while(true)switch(s){case 0:a=A.nl("https://1.186.146.248:5000/bmc/alerthealth/?macID="+q.a.c+"&date="+q.x)
 A.q_().$1("url "+a.j(0))
 s=2
 return A.Z(A.aQQ(a).qB(0,B.om,new A.ayP()),$async$fa)
@@ -54518,7 +54518,7 @@ q=p.d.length
 s=new A.b4(B.Cq,A.cE(A.b([r,A.es(q===0?B.x3:A.aWx(A.HF(o,new A.ayG(p),q,o,o,o,B.D,!1),new A.ayH(p)),1)],s),B.B,B.G,B.H,B.R),o)}return A.p2(n,o,s,o)},
 fa(){var s=0,r=A.Q(t.z),q=this,p,o,n,m
 var $async$fa=A.R(function(a,b){if(a===1)return A.N(b,r)
-while(true)switch(s){case 0:m=A.nl("http://1.186.146.248:5000/bmc/alert/?macID="+q.a.c+"&date="+q.f)
+while(true)switch(s){case 0:m=A.nl("https://1.186.146.248:5000/bmc/alert/?macID="+q.a.c+"&date="+q.f)
 A.q_().$1("url "+m.j(0))
 s=2
 return A.Z(A.aQQ(m).qB(0,B.om,new A.ayI()),$async$fa)
@@ -54621,7 +54621,7 @@ return A.p2(r,r,new A.b4(B.Cu,A.aUM(r,A.cE(A.b([B.aWx,B.MZ,q,B.MZ,p,B.je,A.dg(s.
 B7(){var s=0,r=A.Q(t.z),q=this,p,o,n,m,l,k
 var $async$B7=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:q.a7(new A.aDx(q))
-p=A.nl("http://1.186.146.248:5000/bmc/userlogin/")
+p=A.nl("https://1.186.146.248:5000/bmc/userlogin/")
 A.q_().$1("url "+p.j(0))
 o=t.N
 n=B.b0.JZ(A.a5(["userid",B.b.dI(q.d.a.a),"password",B.b.dI(q.e.a.a)],o,o),null)
